@@ -11,7 +11,7 @@ Coronavirus Tracking application Overview:
 https://www.youtube.com/watch?v=Gdv23OV_vpg
 
 Coronavirus Tracking application Setup: 
-https://youtu.be/UDJSiJi4ibw
+https://www.youtube.com/watch?v=UDJSiJi4ibw
 
 The Coronavirus Tracking application leverages data from the feature layer in arcgis by CSSE_GISandData
 Web service:
