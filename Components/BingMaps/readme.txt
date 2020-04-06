@@ -1,4 +1,4 @@
-Video Walkthrough - https://youtu.be/dP74npyyvGc
+Video Walkthrough - https://youtu.be/bUO9QxKhe6U
 
 Step by step walkthrough of building a responsive Bing Maps Component.
 
