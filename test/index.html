@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Contoso Sample Web Chat</title> 
+    <!-- This styling is for the canvas demonstration purposes. It is recommended 
+that style is moved to separate file for organization in larger projects -->
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+        }
+        h1 {
+            font-size: 16px;
+            font-family: Segoe UI;
+            line-height: 20px;
+            color: whitesmoke;
+            display: table-cell;
+            padding: 13px 0px 0px 20px;
+        }
+        #heading {
+            background-color: purple;
+            height: 50px;
+        }
+        .main {
+            margin: 18px;
+            border-radius: 4px;
+        }
+
+        div[role="form"]{
+            background-color: purple;
+        }        
+        #webchat {
+            position: fixed;
+            height: calc(100% - 50px);
+            width: 100%;
+            top: 50px;
+            overflow: hidden;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <div id="heading">
+
+            <!-- Change the h1 text to change the bot name -->    
+            <h1>COVID-19 Bot</h1>
+
+        </div>
+        <div id="webchat" role="main"></div>
+    </div>    
+  <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+  <script>
+      
+const styleOptions = {
+ hideUploadButton: false,
+           // Add styleOptions to customize web chat canvas
+            botAvatarImage: 'https://readwrite.com/wp-content/uploads/2016/02/MTIyNzYxMTA2MjEyMjkxMTc0.png',
+            userAvatarImage: 'https://www.w3schools.com/w3images/avatar2.png',
+        backgroundColor: '#E6E6FA',
+  userAvatarInitials: 'RD',
+  showSpokenText: true,
+bubbleBackground: 'white',
+richCardWrapTitle: true
+ };  
+
+        // Add your BOT ID below
+        var BOT_ID = "0126c230-a75e-413d-9252-f24e68237423"; 
+
+        var theURL = "https://powerva.microsoft.com/api/botmanagement/v1/directline/directlinetoken?botId=" + BOT_ID;
+      
+       fetch(theURL)
+            .then(response => response.json())
+            .then(conversationInfo => {
+                window.WebChat.renderWebChat(
+                    {
+                        directLine: window.WebChat.createDirectLine({
+                            token: conversationInfo.token,
+                        }),
+                        styleOptions
+                    },
+                    document.getElementById('webchat')
+                );
+            })
+            .catch(err => console.error("An error occurred: " + err));
+    </script>
+  </body>
+</html>
