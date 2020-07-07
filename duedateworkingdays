@@ -1,0 +1,74 @@
+ClearCollect(
+    colHolidays, // This collection will contain the holiday information.
+    Filter(
+        Holidays, // Holidays is coming from my data source which is a SharePoint list. *** Change this based on your scenario.
+        Year(HolidayDate) = Year(Now()) // This is the filter criteria in my scenario to get holidays for current year only.
+    )
+);
+Clear(colDateRange);
+ForAll(
+    [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+    ],
+    Collect(
+        colDateRange,
+        {
+            RowIndex: CountRows(colDateRange) + 1,
+            Date: DateAdd(
+                Today(),
+                Value
+            )
+        }
+    )
+);
+/*HolidayDate is my SharePoint column of type Date. Query here will filter out the holidays. 
+Make sure to replace the HolidayDate column name based on the information from your data source. */
+RemoveIf(
+    colDateRange,
+    Weekday(Date) = 1 || Weekday(Date) = 7 || CountRows(
+        Filter(
+            colHolidays,
+            HolidayDate >= Date, 
+            HolidayDate <= Date
+        )
+    ) > 0
+);
