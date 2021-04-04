@@ -1,0 +1,50 @@
+Switch(
+    varSortColumn,
+    "ID",
+    SortByColumns(
+        Filter(
+            'Work progress tracker',
+            StartsWith(
+                Title,
+                txtTask.Text
+            ) && (Priority.Value = drpPriority.Selected.Value || drpPriority.Selected.Value = Blank()) && (drpStatus.Selected.Value = Blank() || Progress.Value = drpStatus.Selected.Value)
+        ),
+        "ID",
+        If(
+            varSortColumn = Ascending,
+            Ascending,
+            Descending
+        )
+    ),
+    "Title",
+    SortByColumns(
+        Filter(
+            'Work progress tracker',
+            StartsWith(
+                Title,
+                txtTask.Text
+            ) && (Priority.Value = drpPriority.Selected.Value || drpPriority.Selected.Value = Blank()) && (drpStatus.Selected.Value = Blank() || Progress.Value = drpStatus.Selected.Value)
+        ),
+        "Title",
+        If(
+            varSortColumn = Ascending,
+            Ascending,
+            Descending
+        )
+    ),
+    SortByColumns(
+        Filter(
+            'Work progress tracker',
+            StartsWith(
+                Title,
+                txtTask.Text
+            ) && (Priority.Value = drpPriority.Selected.Value || drpPriority.Selected.Value = Blank()) && (drpStatus.Selected.Value = Blank() || Progress.Value = drpStatus.Selected.Value)
+        ),
+        "DueDate",
+        If(
+            varSortColumn = Ascending,
+            Ascending,
+            Descending
+        )
+    )
+)
