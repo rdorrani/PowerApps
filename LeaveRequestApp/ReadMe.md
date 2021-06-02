@@ -18,10 +18,10 @@ Create a SP list with the following name: **Leave Request**
 </table>
 
 ### Step 2
-Import App zip file in Power Apps. <br>Imported zip file will contain both the App & the flow. 
+[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/LeaveRequestApp/LeaveRequestApp_20210602180703.zip) in Power Apps. <br>Imported zip file will contain both the App & the flow. 
 
 ### Step 3
-Edit the App.  <br>On App OnStart function, Set the HR Admin details **Set(HRManagerEmail, "place email of HR Admin here")** <br>Remove the SharePoint data source from the App & Add a new SharePoint data source connected with your newly created “Leave Request” list. 
+Edit the App.  <br>On App OnStart function, Set the HR Admin details as follows: **Set(HRManagerEmail, "place email of HR Admin here")** <br>Remove the SharePoint data source from the App & add a new SharePoint data source connection with your newly created “Leave Request” list. 
 
 ### Step 4
 Go to flow.microsoft.com <br>Turn on the “Leave Request Approval Process flow” <br>Edit the flow and update the SiteURL action to point to your SharePoint site where the new “Leave Request” list has been created.
