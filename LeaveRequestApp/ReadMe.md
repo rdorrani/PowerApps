@@ -1,9 +1,6 @@
 # Leave Request App Template
 
-
-## **Details coming soon
-
-
+### Step 1
 List Name:  Leave Request
 Column Name	Column Type	Comments
 Title	Single line of Text	This will be the default column that gets created in a SharePoint list
