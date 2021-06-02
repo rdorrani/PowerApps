@@ -1,3 +1,7 @@
+
+[![Everything Is AWESOME](http://img.youtube.com/vi/0U5jax-zMIc/maxresdefault.jpg)](https://youtu.be/0U5jax-zMIc "Leave Request App Walkthrough")
+**Click image to view video**
+
 # Leave Request App Template
 
 ### Step 1
