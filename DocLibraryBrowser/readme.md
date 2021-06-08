@@ -16,7 +16,7 @@ Set hiddenFolderPath value for folders manually.
 
 
 ### Step 2
-[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/LeaveRequestApp/LeaveRequestApp_20210602180703.zip) in Power Apps. 
+[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/DocLibraryBrowser/DocumentLibraryExplorer_20210608135241.zip) in Power Apps. 
 
 ### Step 3
 Edit the App.<br>Remove the SharePoint data source from the App & add a new SharePoint data source connection pointing to your Document Library.<br> On App OnStart function set your document library relative path.  **Set(varCurrentPath,"Shared Documents/")**
