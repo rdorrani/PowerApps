@@ -15,7 +15,7 @@ Edit the App.  <br>
 Remove the data source connection to "Task Assignments".<br>
 Add new data source connection & connect to your newly created SharePoint List **Task Assignments**
 <br> Save the App & Close the App
-<br> Edit the App again and test.https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/DataImport.csv
+<br> Edit the App again and test.
 
 # BULK IMPORT CSV
 [Bulk Import CSV File](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/DataImport.csv)
