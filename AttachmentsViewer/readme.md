@@ -19,7 +19,7 @@ Update the tenant name in Component
 ### Step 3
 Add Component to Screen, connect to list item attachments reference, set component properties and use. 
 
-All the above is shown in the video.
+All of step 3 is covered in the [Video](https://www.youtube.com/watch?v=3dNeMVLZDHo).
 
 # SUPPORTED
 Full features in Browser.
