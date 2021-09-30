@@ -6,6 +6,7 @@
 
 ### Step 1
 Import Component to App.
+
 [Import Component zip file](https://github.com/rdorrani/PowerApps/blob/master/AttachmentsViewer/Attachments%20Viewer%20Component.msapp) in Power Apps. 
 
 ![image](https://user-images.githubusercontent.com/19437310/135476441-bf02c98b-6650-4019-af16-5f6e601e2f26.png)
@@ -26,3 +27,4 @@ Full features when App is embedded in SharePoint Page as web part.
 # LIMITATIONS
 Power Apps Mobile App does not support the sharepoint API endpoint to get images.
 Download function does not work on Mobile App.
+Video player has issues in Mobile App.
