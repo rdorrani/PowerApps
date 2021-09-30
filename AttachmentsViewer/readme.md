@@ -18,13 +18,17 @@ Update the tenant name in Component
 
 ### Step 3
 Add Component to Screen, connect to list item attachments reference, set component properties and use. 
+
 All the above is shown in the video.
 
 # SUPPORTED
 Full features in Browser.
+
 Full features when App is embedded in SharePoint Page as web part.
 
 # LIMITATIONS
 Power Apps Mobile App does not support the sharepoint API endpoint to get images.
+
 Download function does not work on Mobile App.
+
 Video player has issues in Mobile App.
