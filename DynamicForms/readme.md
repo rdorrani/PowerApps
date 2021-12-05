@@ -5,7 +5,15 @@
 # POWER APPS DYNAMIC FORMS
 
 ### Step 1
-Create a SP list using the Microsoft List template "Work progress tracker" with the following name: **Task Assignments**
+Create a SP list with the following name: **Form Template**
+
+<table>
+  <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
+  <tr> <td>Title</td>  <td>Single line of Text</td> <td>This will be the default column that gets created in a SharePoint list</td> </tr>
+  <tr> <td>Column Type</td>  <td>Single line of Text</td> <td></td> </tr>
+   <tr> <td>Reuqired</td>  <td>Single line of Text</td><td></td> </tr>
+   <tr> <td>Choices</td> <td>Single line of Text</td> <td></td> </tr>
+</table>
 
 ### Step 2
 [Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
