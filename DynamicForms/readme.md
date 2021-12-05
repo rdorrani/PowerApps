@@ -46,7 +46,7 @@ Create a SP list with the following name: **Form Results**
 ### Step 4
 Edit the App.  <br>
 Remove the data source connection to "Form Template"& "Form Results"<br>
-Add new data source connection & connect to your newly created SharePoint Lists **Form Template** &  **Form Results**
+Add new data source connection & connect to your newly created SharePoint Lists **Form Template** & **Form Results**
 <br> Save the App & Close the App
 <br> Edit the App again and test.
 
