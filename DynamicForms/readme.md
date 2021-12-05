@@ -72,8 +72,14 @@ Create a SP list with the following name: **Survey Results**
 
 ### Step 4
 Edit the App.  <br>
+Fix connection for SharePoint or Excel Online if prompted.<br>
 Remove the data source connection to "Survey Results"<br>
-Add new data source connection & connect to your newly created SharePoint List **Survey Results**
+Add new data source connection & connect to your newly created SharePoint List **Survey Results**<br>
+Remove the data source connection to "TypeA" & "TypeB"<br>
+Add new data source connection for Excel Online (Business) & connect to your newly added Excel file in OneDrive for Business **FormTemplate.xlsx**<br>
+Choose Tables "TypeA" & "TypeB" & Connect.<br>
+Use unique column for TypeA - select Title & Connect.<br>
+Use unique column for TypeB - select __PowerAppsId__ & Connect.<br>
 <br> Save the App & Close the App
 <br> Edit the App again and test.
 
