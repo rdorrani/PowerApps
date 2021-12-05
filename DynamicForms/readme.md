@@ -1,5 +1,5 @@
 
-[![Everything Is AWESOME](http://img.youtube.com/vi/P6yqIpjmPrs/maxresdefault.jpg)](https://youtu.be/P6yqIpjmPrs "Editable Grid")
+[![Everything Is AWESOME](http://img.youtube.com/vi/wQqetH2QLyk/maxresdefault.jpg)](https://youtu.be/wQqetH2QLyk "Power Apps Dynamic Forms")
 **🎥 Click image to view video**
 
 # EDITABLE GRID WITH BULK FEATURES
