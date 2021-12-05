@@ -17,13 +17,14 @@ Create a SP list with the following name: **Form Template**
 
 
 Add data as follows:
-Name	Text	Yes	NA
-Age	Number	No	NA
-Enrolled	Yes/No	No	NA
-Enrolled Date	Date	Yes	NA
-Region	Choice	Yes	North;South;East;West
-Email	Text	No	NA
-Comments	MultiText	No	NA
+<table>
+<tr> <td>Name</td> 	 <td>Text</td>	 <td>Yes</td>	 <td>NA</td></tr>
+<tr> <td>Age</td> 	 <td>	Number	</td> 	 <td>No</td> 	 <td>	NA</td></tr>
+<tr> <td>Enrolled</td> 	 <td>	Yes/No</td> 	 <td>	No</td> 	 <td>	NA</td></tr>
+<tr> <td>Enrolled Date</td> 	 <td>	Date</td> 	 <td>	Yes	</td> 	 <td>NA</td></tr>
+<tr> <td>Region</td> 	 <td>	Choice</td> 	 <td>	Yes</td> 	 <td>	North;South;East;West</td></tr>
+<tr> <td>Email	</td> 	 <td>Text	</td> 	 <td>No	</td> 	 <td>NA</td></tr>
+  </table>
 
 ### Step 2
 [Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
