@@ -11,13 +11,14 @@ Create a SP list with the following name: **Form Template**
   <th>Column Name</th>  <th>Column Type</th>  <th>Comments</th> 
   <tr> <td>Title</td>  <td>Single line of Text</td> <td>This will be the default column that gets created in a SharePoint list</td> </tr>
   <tr> <td>Column Type</td>  <td>Single line of Text</td> <td></td> </tr>
-   <tr> <td>Reuqired</td>  <td>Single line of Text</td><td></td> </tr>
+   <tr> <td>Required</td>  <td>Single line of Text</td><td></td> </tr>
    <tr> <td>Choices</td> <td>Single line of Text</td> <td></td> </tr>
 </table>
 
 
 Add data as follows:
 <table>
+   <th>Title</th>  <th>Column Type</th>  <th>Reuqired</th> <th>Choices</th>
 <tr> <td>Name</td> 	 <td>Text</td>	 <td>Yes</td>	 <td>NA</td></tr>
 <tr> <td>Age</td> 	 <td>	Number	</td> 	 <td>No</td> 	 <td>	NA</td></tr>
 <tr> <td>Enrolled</td> 	 <td>	Yes/No</td> 	 <td>	No</td> 	 <td>	NA</td></tr>
