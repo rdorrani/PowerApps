@@ -2,7 +2,7 @@
 [![Everything Is AWESOME](http://img.youtube.com/vi/wQqetH2QLyk/maxresdefault.jpg)](https://youtu.be/wQqetH2QLyk "Power Apps Dynamic Forms")
 **🎥 Click image to view video**
 
-# EDITABLE GRID WITH BULK FEATURES
+# POWER APPS DYNAMIC FORMS
 
 ### Step 1
 Create a SP list using the Microsoft List template "Work progress tracker" with the following name: **Task Assignments**
