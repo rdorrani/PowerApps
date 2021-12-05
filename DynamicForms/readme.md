@@ -15,6 +15,16 @@ Create a SP list with the following name: **Form Template**
    <tr> <td>Choices</td> <td>Single line of Text</td> <td></td> </tr>
 </table>
 
+
+Add data as follows:
+Name	Text	Yes	NA
+Age	Number	No	NA
+Enrolled	Yes/No	No	NA
+Enrolled Date	Date	Yes	NA
+Region	Choice	Yes	North;South;East;West
+Email	Text	No	NA
+Comments	MultiText	No	NA
+
 ### Step 2
 [Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
 
