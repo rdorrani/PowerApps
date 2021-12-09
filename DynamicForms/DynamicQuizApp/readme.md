@@ -16,10 +16,10 @@ Create a SP list with the following name: **Results**
 </table>
   
 ### Step 2
-[Import Survey Template excel file to OneDrive](https://github.com/rdorrani/PowerApps/blob/master/DynamicForms/FormTemplate.xlsx) 
+[Import Quiz Template excel file to OneDrive](https://github.com/rdorrani/PowerApps/blob/master/DynamicForms/DynamicQuizApp/FormTemplateTabs.xlsx) 
 
 ### Step 3
-[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/DynamicForms/DynamicSurvey_20211205225504.zip) in Power Apps. 
+[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/DynamicForms/DynamicQuizApp/DynamicQuizApp_20211209060253.zip) in Power Apps. 
 
 ### Step 4
 Edit the App.  <br>
