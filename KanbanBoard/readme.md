@@ -1,5 +1,5 @@
 
-[![Everything Is AWESOME](http://img.youtube.com/vi/P6yqIpjmPrs/maxresdefault.jpg)](https://youtu.be/P6yqIpjmPrs "Kanban Boards")
+[![Everything Is AWESOME](http://img.youtube.com/vi/-xSjy_rwQF8/maxresdefault.jpg)](https://youtu.be/-xSjy_rwQF8 "Kanban Boards")
 **🎥 Click image to view video**
 
 # Kanban Board in Power Apps
