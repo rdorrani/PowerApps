@@ -8,7 +8,7 @@
 Create a SP list using the Microsoft List template "Work progress tracker" with the following name: **Work progress tracker**
 
 ### Step 2
-[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
+[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/KanbanBoard/KanbanBoard_20220228011513.zip) in Power Apps. 
 
 ### Step 3
 Edit the App.  <br>
