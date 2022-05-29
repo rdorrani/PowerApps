@@ -14,7 +14,7 @@ Create a SP list with the following name: **Info Tracker**
 </table>
 
 ### Step 2
-[Import App zip file](link to app) in Power Apps. <Link coming soon>
+[Import App zip file](***link to app coming soon***) in Power Apps.
 
 ### Step 3
 Edit the App.  <br>Remove the SharePoint data source from the App & add a new SharePoint data source connection with your newly created “Info Tracker” list. 
