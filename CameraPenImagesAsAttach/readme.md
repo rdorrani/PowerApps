@@ -1,5 +1,5 @@
 
-[![Everything Is AWESOME](http://img.youtube.com/vi/url/maxresdefault.jpg)](https://youtu.be/url "Camera & Pen & Images as List Attachments")
+[![Everything Is AWESOME](http://img.youtube.com/vi/pI8saVXEDE4/maxresdefault.jpg)](https://youtu.be/pI8saVXEDE4 "Camera & Pen & Images as List Attachments")
 **Click image to view video**
 
 # App Template for Camera & Pen & Images as List Attachments  
@@ -14,7 +14,7 @@ Create a SP list with the following name: **Info Tracker**
 </table>
 
 ### Step 2
-[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/LeaveRequestApp/LeaveRequestApp_20210602180703.zip) in Power Apps.
+[Import App zip file](link to app) in Power Apps. <Link coming soon>
 
 ### Step 3
 Edit the App.  <br>Remove the SharePoint data source from the App & add a new SharePoint data source connection with your newly created “Info Tracker” list. 
