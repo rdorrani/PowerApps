@@ -2,7 +2,7 @@
 [![Everything Is AWESOME](http://img.youtube.com/vi/url/maxresdefault.jpg)](https://youtu.be/url "Camera & Pen & Images as List Attachments")
 **Click image to view video**
 
-# Camera & Pen & Images as List Attachments App Template
+# App Template for Camera & Pen & Images as List Attachments  
 
 ### Step 1
 Create a SP list with the following name: **Info Tracker**
