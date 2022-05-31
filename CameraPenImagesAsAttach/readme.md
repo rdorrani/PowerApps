@@ -14,7 +14,7 @@ Create a SP list with the following name: **Info Tracker**
 </table>
 
 ### Step 2
-[Import App zip file](***link to app coming soon***) in Power Apps.
+[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/CameraPenImagesAsAttach/Camera%26Pen%26ImagesasListAttachments_20220529191633.zip) in Power Apps.
 
 ### Step 3
 Edit the App.  <br>Remove the SharePoint data source from the App & add a new SharePoint data source connection with your newly created “Info Tracker” list. 
