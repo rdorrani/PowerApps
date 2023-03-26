@@ -1,0 +1,55 @@
+swagger: '2.0'
+info:
+  title: Whisper
+  description: ''
+  version: '1.0'
+host: api.openai.com
+basePath: /
+schemes:
+  - https
+consumes: []
+produces: []
+paths:
+  /v1/audio/transcriptions:
+    post:
+      responses:
+        default:
+          description: default
+          schema:
+            type: object
+            properties:
+              text:
+                type: string
+                description: text
+      summary: Speech to Text
+      operationId: Speech2Text
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: Content-Type
+          in: header
+          required: false
+          type: string
+        - name: file
+          in: formData
+          type: file
+          required: true
+        - name: filename
+          in: formData
+          type: string
+          required: true
+        - name: model
+          in: formData
+          type: string
+          required: true
+definitions: {}
+parameters: {}
+responses: {}
+securityDefinitions:
+  API Key:
+    type: apiKey
+    in: header
+    name: Authorization
+security:
+  - API Key: []
+tags: []
