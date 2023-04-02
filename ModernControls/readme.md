@@ -8,5 +8,5 @@ Select "Import Canvas App" from Top Menu and [Import App zip file](https://githu
 
 ### Note!
 If trying to edit the App  <br>
-Ensure to append &studio-version=v3.23034.5.254933012 in the URL (This is for US based tenants)<br>
+Ensure to append ###&studio-version=v3.23034.5.254933012 in the URL (This is for US based tenants)<br>
 [How to retrieve Power Apps authoring versions](https://mofumofupower.hatenablog.com/entry/2021/09/23/183210)
