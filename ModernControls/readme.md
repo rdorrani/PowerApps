@@ -1,20 +1,13 @@
-[![Everything Is AWESOME](http://img.youtube.com/vi/https://youtu.be/eNhCQ7Y2x7o/maxresdefault.jpg)](https://youtu.be/https://youtu.be/eNhCQ7Y2x7o "Modern Controls in Canvas Power Apps")
+[![Everything Is AWESOME](http://img.youtube.com/vi/eNhCQ7Y2x7o/maxresdefault.jpg)](https://youtu.be/eNhCQ7Y2x7o "Modern Controls in Canvas Power Apps")
 **🎥 Click image to view video**
 
-# EDITABLE GRID WITH BULK FEATURES
-
-### Step 1
-Create a SP list using the Microsoft List template "Work progress tracker" with the following name: **Task Assignments**
-
-### Step 2
+### Import App Zip File
+Go to https://make.powerapps.com/ <br>
+Go to Apps in left navigation <br>
+Select "Import Canvas App" from Top Menu and import the below zip file. <br>
 [Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
 
-### Step 3
-Edit the App.  <br>
-Remove the data source connection to "Task Assignments".<br>
-Add new data source connection & connect to your newly created SharePoint List **Task Assignments**
-<br> Save the App & Close the App
-<br> Edit the App again and test.
-
-# BULK IMPORT CSV
-[Bulk Import CSV File](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/DataImport.csv)
+### Note!
+If trying to edit the App  <br>
+Ensure to append &studio-version=v3.23034.5.254933012 in the URL (This is for US based tenants)<br>
+[How to retrieve Power Apps authoring versions](https://mofumofupower.hatenablog.com/entry/2021/09/23/183210)
