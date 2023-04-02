@@ -3,9 +3,8 @@
 
 ### Import App Zip File
 Go to https://make.powerapps.com/ <br>
-Go to Apps in left navigation <br>
-Select "Import Canvas App" from Top Menu and import the below zip file. <br>
-[Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip) in Power Apps. 
+Select "Apps" in left navigation <br>
+Select "Import Canvas App" from Top Menu and [Import App zip file](https://github.com/rdorrani/PowerApps/blob/master/EditableGrid/PowerAppsGridwithBulkCapabilities_20210921184658.zip)
 
 ### Note!
 If trying to edit the App  <br>
