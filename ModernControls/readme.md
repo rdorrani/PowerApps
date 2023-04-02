@@ -1,4 +1,4 @@
-[![Everything Is AWESOME](http://img.youtube.com/vi/P6yqIpjmPrs/maxresdefault.jpg)](https://youtu.be/P6yqIpjmPrs "Editable Grid")
+[![Everything Is AWESOME](http://img.youtube.com/vi/https://youtu.be/eNhCQ7Y2x7o/maxresdefault.jpg)](https://youtu.be/https://youtu.be/eNhCQ7Y2x7o "Modern Controls in Canvas Power Apps")
 **🎥 Click image to view video**
 
 # EDITABLE GRID WITH BULK FEATURES
